@@ -10,3 +10,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    justify-content: center;
+    display: flex;
+}
+
+.padre {
+    display: inline-grid;
+}
+
+.palo {
+    padding-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+}
+
+.semaforo{
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+}
+
+.luces {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    
+  }
+
+  .rojo {
+    background-color: red;
+  }
+  .ambar {
+    background-color: orange;
+  }
+  .verde {
+    background-color: green;
+  }
+
+  .brillo {
+    box-shadow: 0 0 10px 5px #48abe0;
+  }
